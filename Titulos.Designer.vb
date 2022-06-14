@@ -22,6 +22,7 @@ Partial Class Titulos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Titulos))
         Me.txtCodigo = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -63,6 +64,9 @@ Partial Class Titulos
         Me.SqlUpdateCommand2 = New System.Data.SqlClient.SqlCommand()
         Me.SqlDeleteCommand2 = New System.Data.SqlClient.SqlCommand()
         Me.DAEditorial = New System.Data.SqlClient.SqlDataAdapter()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.DsTitulos1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -101,7 +105,7 @@ Partial Class Titulos
         Me.comboEditorial.FormattingEnabled = True
         Me.comboEditorial.Location = New System.Drawing.Point(37, 327)
         Me.comboEditorial.Name = "comboEditorial"
-        Me.comboEditorial.Size = New System.Drawing.Size(168, 28)
+        Me.comboEditorial.Size = New System.Drawing.Size(229, 28)
         Me.comboEditorial.TabIndex = 3
         Me.comboEditorial.ValueMember = "publishers.pub_id"
         '
@@ -146,7 +150,7 @@ Partial Class Titulos
         '
         'txtCodEditorial
         '
-        Me.txtCodEditorial.Location = New System.Drawing.Point(223, 327)
+        Me.txtCodEditorial.Location = New System.Drawing.Point(312, 327)
         Me.txtCodEditorial.MaxLength = 4
         Me.txtCodEditorial.Name = "txtCodEditorial"
         Me.txtCodEditorial.Size = New System.Drawing.Size(122, 26)
@@ -164,7 +168,7 @@ Partial Class Titulos
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(219, 304)
+        Me.Label5.Location = New System.Drawing.Point(308, 304)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(103, 20)
         Me.Label5.TabIndex = 9
@@ -258,9 +262,9 @@ Partial Class Titulos
         '
         'DTPFecha
         '
-        Me.DTPFecha.Location = New System.Drawing.Point(417, 327)
+        Me.DTPFecha.Location = New System.Drawing.Point(467, 325)
         Me.DTPFecha.Name = "DTPFecha"
-        Me.DTPFecha.Size = New System.Drawing.Size(229, 26)
+        Me.DTPFecha.Size = New System.Drawing.Size(225, 26)
         Me.DTPFecha.TabIndex = 20
         '
         'BBuscar
@@ -386,11 +390,38 @@ Partial Class Titulos
         Me.DAEditorial.TableMappings.AddRange(New System.Data.Common.DataTableMapping() {New System.Data.Common.DataTableMapping("Table", "publishers", New System.Data.Common.DataColumnMapping() {New System.Data.Common.DataColumnMapping("pub_id", "pub_id"), New System.Data.Common.DataColumnMapping("pub_name", "pub_name")})})
         Me.DAEditorial.UpdateCommand = Me.SqlUpdateCommand2
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.Red
+        Me.Label11.Location = New System.Drawing.Point(609, 9)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(121, 20)
+        Me.Label11.TabIndex = 27
+        Me.Label11.Text = "Leandro Fermín"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.ForeColor = System.Drawing.Color.Red
+        Me.Label12.Location = New System.Drawing.Point(609, 31)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(109, 20)
+        Me.Label12.TabIndex = 28
+        Me.Label12.Text = "C.I: 29635222"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 500
+        '
         'Titulos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(751, 491)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.BSalir)
         Me.Controls.Add(Me.BCancelar)
         Me.Controls.Add(Me.BGuardar)
@@ -470,4 +501,7 @@ Partial Class Titulos
     Friend WithEvents SqlDeleteCommand2 As SqlClient.SqlCommand
     Friend WithEvents DAEditorial As SqlClient.SqlDataAdapter
     Friend WithEvents DsTitulos1 As DSTitulos
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Timer1 As Timer
 End Class

@@ -6,7 +6,6 @@
     Private Sub inicio()
         comboEditorial.Enabled = False
         DTPFecha.Enabled = False
-        ' ME QUEDÉ POR HACER ESTO   EL METODO DE INICIO
         BEliminar.Enabled = False
         BCancelar.Enabled = False
         BBuscar.Enabled = True
@@ -247,6 +246,18 @@
 
     Private Sub BCancelar_Click(sender As Object, e As EventArgs) Handles BCancelar.Click
         inicio()
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
+        If Label11.ForeColor = Color.Red And Label12.ForeColor = Color.Red Then
+            Label11.ForeColor = Color.Blue
+            Label12.ForeColor = Color.Blue
+        Else
+            Label11.ForeColor = Color.Red
+            Label12.ForeColor = Color.Red
+        End If
 
     End Sub
 End Class
