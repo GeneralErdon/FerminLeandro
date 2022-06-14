@@ -1,0 +1,12 @@
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\bin\Debug\FerminLeandro.exe.config
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\bin\Debug\FerminLeandro.exe
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\bin\Debug\FerminLeandro.pdb
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\bin\Debug\FerminLeandro.xml
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.vbproj.AssemblyReference.cache
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.Titulos.resources
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.Resources.resources
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.vbproj.GenerateResource.cache
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.vbproj.CoreCompileInputs.cache
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.exe
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.xml
+C:\Users\General Erdon\Desktop\Uni\Informatica Sociedad y Organización\Segundo Corte Evaluacion\FerminLeandro\obj\Debug\FerminLeandro.pdb
